@@ -31,13 +31,13 @@ export default function Navbar() {
                                 {/* <img class="toggle hidden" src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png" width="40" height="40"/> */} </button>
                         </div>
                         <div class="toggle hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 border-t-2 md:border-none">
-                            <a href="#" class="block md:inline-block text-white px-3 py-3 border-b-2 md:border-none">
+                            <a href="/" class="block md:inline-block text-white px-3 py-3 border-b-2 md:border-none">
                                 Home
                             </a>
-                            <a href="#" class="block md:inline-block text-white px-3 py-3 border-b-2 md:border-none">
+                            <a href="/category" class="block md:inline-block text-white px-3 py-3 border-b-2 md:border-none">
                                 Category
                             </a>
-                            <a href="#" class="block md:inline-block text-white px-3 py-3 border-b-2 md:border-none">
+                            <a href="/rent-bikes" class="block md:inline-block text-white px-3 py-3 border-b-2 md:border-none">
                                 Rent Bikes
                             </a>
                         </div>
