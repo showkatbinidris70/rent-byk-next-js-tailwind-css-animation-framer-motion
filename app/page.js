@@ -13,7 +13,7 @@ export default function Home() {
             {/* search bar */}
             <div className="flex justify-between py-4">
               <div className="flex gap-1 sm:gap-4">
-                <div>
+                <div className="transition transform hover:translate-x-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
@@ -34,7 +34,7 @@ export default function Home() {
                     </defs>
                   </svg>
                 </div>
-                <div>
+                <div className="transition transform hover:translate-x-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
@@ -52,7 +52,7 @@ export default function Home() {
                     />
                   </svg>
                 </div>
-                <div>
+                <div className="transition transform hover:translate-x-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
@@ -117,7 +117,7 @@ export default function Home() {
               <div className="my-1 md:my-0 w-full hidden md:block">
                 <div className="flex gap-36 lg:gap-4 items-center my-5 md:my-20 lg:my-64">
                   <div className="flex gap-2 items-center">
-                    <div>
+                    <div className="transition transform hover:-translate-x-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="78"
@@ -161,7 +161,7 @@ export default function Home() {
                       <div className="text-2xl font-semibold text-white leading-normal">
                         <a
                           href="/"
-                          class="block md:inline-block text-white px-3 py-3 border-b-2 md:border-none"
+                          class="block md:inline-block text-white px-3 py-3 border-b-2 md:border-none transition transform hover:translate-x-2"
                         >
                           Home
                         </a>
@@ -192,7 +192,7 @@ export default function Home() {
                       <div className="text-2xl font-semibold text-white leading-normal">
                         <a
                           href="/category"
-                          class="block md:inline-block text-white px-3 py-3 border-b-2 md:border-none"
+                          class="block md:inline-block text-white px-3 py-3 border-b-2 md:border-none transition transform hover:translate-x-2"
                         >
                           Category
                         </a>
@@ -221,9 +221,9 @@ export default function Home() {
                         </svg>
                       </div>
                       <div className="text-2xl font-semibold text-white leading-normal">
-                      <a
+                        <a
                           href="/rent-bikes"
-                          class="block md:inline-block text-white px-3 py-3 border-b-2 md:border-none"
+                          class="block md:inline-block text-white px-3 py-3 border-b-2 md:border-none transition transform hover:translate-x-2"
                         >
                           Rent Bikes
                         </a>
@@ -276,7 +276,10 @@ export default function Home() {
                       <Image src={Image_6} />
                     </div>
                     <div className="flex justify-center">
-                      <Image src={Cycle_Image_1} />
+                      <Image
+                        src={Cycle_Image_1}
+                        className="transition transform hover:translate-x-3"
+                      />
                     </div>
                   </div>
                   <div className="w-1/12">
@@ -497,7 +500,10 @@ export default function Home() {
                       MTB
                     </div>
                     <div className="my-4 flex justify-center">
-                      <Image src={Cycle_Image_1} />
+                      <Image
+                        src={Cycle_Image_1}
+                        className="transition transform hover:translate-x-2"
+                      />
                     </div>
                     <div className="flex gap-2 justify-between">
                       <div
@@ -518,7 +524,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className="flex items-center justify-center bg-[#059E3C] rounded-md py-2 mt-2">
+                    <div className="flex items-center justify-center bg-[#059E3C] rounded-md py-2 mt-2 hover:bg-white hover:text-[#059E3c]">
                       <Link
                         href="#"
                         className="font-medium"
@@ -544,7 +550,10 @@ export default function Home() {
                       MTB
                     </div>
                     <div className="my-4 flex justify-center">
-                      <Image src={Cycle_Image_1} />
+                      <Image
+                        src={Cycle_Image_1}
+                        className="transition transform hover:translate-x-2"
+                      />
                     </div>
                     <div className="flex gap-2 justify-between">
                       <div
@@ -565,7 +574,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className="flex items-center justify-center bg-[#059E3C] rounded-md py-2 mt-2">
+                    <div className="flex items-center justify-center bg-[#059E3C] rounded-md py-2 mt-2 hover:bg-white hover:text-[#059E3c]">
                       <Link
                         href="#"
                         className="font-medium"
@@ -591,7 +600,10 @@ export default function Home() {
                       MTB
                     </div>
                     <div className="my-4 flex justify-center">
-                      <Image src={Cycle_Image_1} />
+                      <Image
+                        src={Cycle_Image_1}
+                        className="transition transform hover:translate-x-2"
+                      />
                     </div>
                     <div className="flex gap-2 justify-between">
                       <div
@@ -612,7 +624,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className="flex items-center justify-center bg-[#059E3C] rounded-md py-2 mt-2">
+                    <div className="flex items-center justify-center bg-[#059E3C] rounded-md py-2 mt-2 hover:bg-white hover:text-[#059E3c]">
                       <Link
                         href="#"
                         className="font-medium"
